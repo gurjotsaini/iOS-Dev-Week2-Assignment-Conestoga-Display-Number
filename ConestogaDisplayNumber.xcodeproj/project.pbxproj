@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7BC5852B5DE92D00D7856F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC5842B5DE92D00D7856F /* AppDelegate.swift */; };
+		8F7BC5872B5DE92D00D7856F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC5862B5DE92D00D7856F /* SceneDelegate.swift */; };
+		8F7BC5892B5DE92D00D7856F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC5882B5DE92D00D7856F /* ViewController.swift */; };
+		8F7BC58C2B5DE92D00D7856F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BC58A2B5DE92D00D7856F /* Main.storyboard */; };
+		8F7BC58E2B5DE92E00D7856F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BC58D2B5DE92E00D7856F /* Assets.xcassets */; };
+		8F7BC5912B5DE92E00D7856F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BC58F2B5DE92E00D7856F /* LaunchScreen.storyboard */; };
+		8F7BC59C2B5DE92E00D7856F /* ConestogaDisplayNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC59B2B5DE92E00D7856F /* ConestogaDisplayNumberTests.swift */; };
+		8F7BC5A62B5DE92E00D7856F /* ConestogaDisplayNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC5A52B5DE92E00D7856F /* ConestogaDisplayNumberUITests.swift */; };
+		8F7BC5A82B5DE92E00D7856F /* ConestogaDisplayNumberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BC5A72B5DE92E00D7856F /* ConestogaDisplayNumberUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F7BC5982B5DE92E00D7856F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F7BC5792B5DE92D00D7856F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7BC5802B5DE92D00D7856F;
+			remoteInfo = ConestogaDisplayNumber;
+		};
+		8F7BC5A22B5DE92E00D7856F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F7BC5792B5DE92D00D7856F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7BC5802B5DE92D00D7856F;
+			remoteInfo = ConestogaDisplayNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F7BC5812B5DE92D00D7856F /* ConestogaDisplayNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConestogaDisplayNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7BC5842B5DE92D00D7856F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F7BC5862B5DE92D00D7856F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F7BC5882B5DE92D00D7856F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F7BC58B2B5DE92D00D7856F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F7BC58D2B5DE92E00D7856F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F7BC5902B5DE92E00D7856F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F7BC5922B5DE92E00D7856F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7BC5972B5DE92E00D7856F /* ConestogaDisplayNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConestogaDisplayNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7BC59B2B5DE92E00D7856F /* ConestogaDisplayNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConestogaDisplayNumberTests.swift; sourceTree = "<group>"; };
+		8F7BC5A12B5DE92E00D7856F /* ConestogaDisplayNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConestogaDisplayNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7BC5A52B5DE92E00D7856F /* ConestogaDisplayNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConestogaDisplayNumberUITests.swift; sourceTree = "<group>"; };
+		8F7BC5A72B5DE92E00D7856F /* ConestogaDisplayNumberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConestogaDisplayNumberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7BC57E2B5DE92D00D7856F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC5942B5DE92E00D7856F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC59E2B5DE92E00D7856F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7BC5782B5DE92D00D7856F = {
+			isa = PBXGroup;
+			children = (
+				8F7BC5832B5DE92D00D7856F /* ConestogaDisplayNumber */,
+				8F7BC59A2B5DE92E00D7856F /* ConestogaDisplayNumberTests */,
+				8F7BC5A42B5DE92E00D7856F /* ConestogaDisplayNumberUITests */,
+				8F7BC5822B5DE92D00D7856F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7BC5822B5DE92D00D7856F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BC5812B5DE92D00D7856F /* ConestogaDisplayNumber.app */,
+				8F7BC5972B5DE92E00D7856F /* ConestogaDisplayNumberTests.xctest */,
+				8F7BC5A12B5DE92E00D7856F /* ConestogaDisplayNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7BC5832B5DE92D00D7856F /* ConestogaDisplayNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BC5842B5DE92D00D7856F /* AppDelegate.swift */,
+				8F7BC5862B5DE92D00D7856F /* SceneDelegate.swift */,
+				8F7BC5882B5DE92D00D7856F /* ViewController.swift */,
+				8F7BC58A2B5DE92D00D7856F /* Main.storyboard */,
+				8F7BC58D2B5DE92E00D7856F /* Assets.xcassets */,
+				8F7BC58F2B5DE92E00D7856F /* LaunchScreen.storyboard */,
+				8F7BC5922B5DE92E00D7856F /* Info.plist */,
+			);
+			path = ConestogaDisplayNumber;
+			sourceTree = "<group>";
+		};
+		8F7BC59A2B5DE92E00D7856F /* ConestogaDisplayNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BC59B2B5DE92E00D7856F /* ConestogaDisplayNumberTests.swift */,
+			);
+			path = ConestogaDisplayNumberTests;
+			sourceTree = "<group>";
+		};
+		8F7BC5A42B5DE92E00D7856F /* ConestogaDisplayNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F7BC5A52B5DE92E00D7856F /* ConestogaDisplayNumberUITests.swift */,
+				8F7BC5A72B5DE92E00D7856F /* ConestogaDisplayNumberUITestsLaunchTests.swift */,
+			);
+			path = ConestogaDisplayNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7BC5802B5DE92D00D7856F /* ConestogaDisplayNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BC5AB2B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumber" */;
+			buildPhases = (
+				8F7BC57D2B5DE92D00D7856F /* Sources */,
+				8F7BC57E2B5DE92D00D7856F /* Frameworks */,
+				8F7BC57F2B5DE92D00D7856F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConestogaDisplayNumber;
+			productName = ConestogaDisplayNumber;
+			productReference = 8F7BC5812B5DE92D00D7856F /* ConestogaDisplayNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F7BC5962B5DE92E00D7856F /* ConestogaDisplayNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BC5AE2B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumberTests" */;
+			buildPhases = (
+				8F7BC5932B5DE92E00D7856F /* Sources */,
+				8F7BC5942B5DE92E00D7856F /* Frameworks */,
+				8F7BC5952B5DE92E00D7856F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F7BC5992B5DE92E00D7856F /* PBXTargetDependency */,
+			);
+			name = ConestogaDisplayNumberTests;
+			productName = ConestogaDisplayNumberTests;
+			productReference = 8F7BC5972B5DE92E00D7856F /* ConestogaDisplayNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F7BC5A02B5DE92E00D7856F /* ConestogaDisplayNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BC5B12B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumberUITests" */;
+			buildPhases = (
+				8F7BC59D2B5DE92E00D7856F /* Sources */,
+				8F7BC59E2B5DE92E00D7856F /* Frameworks */,
+				8F7BC59F2B5DE92E00D7856F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F7BC5A32B5DE92E00D7856F /* PBXTargetDependency */,
+			);
+			name = ConestogaDisplayNumberUITests;
+			productName = ConestogaDisplayNumberUITests;
+			productReference = 8F7BC5A12B5DE92E00D7856F /* ConestogaDisplayNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7BC5792B5DE92D00D7856F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8F7BC5802B5DE92D00D7856F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8F7BC5962B5DE92E00D7856F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8F7BC5802B5DE92D00D7856F;
+					};
+					8F7BC5A02B5DE92E00D7856F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8F7BC5802B5DE92D00D7856F;
+					};
+				};
+			};
+			buildConfigurationList = 8F7BC57C2B5DE92D00D7856F /* Build configuration list for PBXProject "ConestogaDisplayNumber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F7BC5782B5DE92D00D7856F;
+			productRefGroup = 8F7BC5822B5DE92D00D7856F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7BC5802B5DE92D00D7856F /* ConestogaDisplayNumber */,
+				8F7BC5962B5DE92E00D7856F /* ConestogaDisplayNumberTests */,
+				8F7BC5A02B5DE92E00D7856F /* ConestogaDisplayNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7BC57F2B5DE92D00D7856F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BC5912B5DE92E00D7856F /* LaunchScreen.storyboard in Resources */,
+				8F7BC58E2B5DE92E00D7856F /* Assets.xcassets in Resources */,
+				8F7BC58C2B5DE92D00D7856F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC5952B5DE92E00D7856F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC59F2B5DE92E00D7856F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7BC57D2B5DE92D00D7856F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BC5892B5DE92D00D7856F /* ViewController.swift in Sources */,
+				8F7BC5852B5DE92D00D7856F /* AppDelegate.swift in Sources */,
+				8F7BC5872B5DE92D00D7856F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC5932B5DE92E00D7856F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BC59C2B5DE92E00D7856F /* ConestogaDisplayNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7BC59D2B5DE92E00D7856F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7BC5A82B5DE92E00D7856F /* ConestogaDisplayNumberUITestsLaunchTests.swift in Sources */,
+				8F7BC5A62B5DE92E00D7856F /* ConestogaDisplayNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F7BC5992B5DE92E00D7856F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F7BC5802B5DE92D00D7856F /* ConestogaDisplayNumber */;
+			targetProxy = 8F7BC5982B5DE92E00D7856F /* PBXContainerItemProxy */;
+		};
+		8F7BC5A32B5DE92E00D7856F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F7BC5802B5DE92D00D7856F /* ConestogaDisplayNumber */;
+			targetProxy = 8F7BC5A22B5DE92E00D7856F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F7BC58A2B5DE92D00D7856F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7BC58B2B5DE92D00D7856F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F7BC58F2B5DE92E00D7856F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7BC5902B5DE92E00D7856F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7BC5A92B5DE92E00D7856F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F7BC5AA2B5DE92E00D7856F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F7BC5AC2B5DE92E00D7856F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConestogaDisplayNumber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F7BC5AD2B5DE92E00D7856F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConestogaDisplayNumber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F7BC5AF2B5DE92E00D7856F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConestogaDisplayNumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConestogaDisplayNumber";
+			};
+			name = Debug;
+		};
+		8F7BC5B02B5DE92E00D7856F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConestogaDisplayNumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConestogaDisplayNumber";
+			};
+			name = Release;
+		};
+		8F7BC5B22B5DE92E00D7856F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConestogaDisplayNumber;
+			};
+			name = Debug;
+		};
+		8F7BC5B32B5DE92E00D7856F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Code-Buoyant.ConestogaDisplayNumberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConestogaDisplayNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7BC57C2B5DE92D00D7856F /* Build configuration list for PBXProject "ConestogaDisplayNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BC5A92B5DE92E00D7856F /* Debug */,
+				8F7BC5AA2B5DE92E00D7856F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7BC5AB2B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BC5AC2B5DE92E00D7856F /* Debug */,
+				8F7BC5AD2B5DE92E00D7856F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7BC5AE2B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BC5AF2B5DE92E00D7856F /* Debug */,
+				8F7BC5B02B5DE92E00D7856F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7BC5B12B5DE92E00D7856F /* Build configuration list for PBXNativeTarget "ConestogaDisplayNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7BC5B22B5DE92E00D7856F /* Debug */,
+				8F7BC5B32B5DE92E00D7856F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7BC5792B5DE92D00D7856F /* Project object */;
+}
